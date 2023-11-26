@@ -8,4 +8,7 @@ public class GetSaleListResponse {
     public GetSaleListResponse(List<Sale> saleList) {
         this.saleList = saleList;
     }
+    public List<Sale> getSaleList() {
+        return saleList;
+    }
 }

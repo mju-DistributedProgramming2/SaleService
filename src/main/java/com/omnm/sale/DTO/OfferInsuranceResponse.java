@@ -5,4 +5,7 @@ public class OfferInsuranceResponse {
     public OfferInsuranceResponse(int id) {
         this.id = id;
     }
+    public int getId() {
+        return id;
+    }
 }
