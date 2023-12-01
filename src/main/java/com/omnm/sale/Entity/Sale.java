@@ -7,16 +7,16 @@ import java.io.Serializable;
 public class Sale implements Serializable {
     @Id
     @GeneratedValue
-    private int id;
+    private Integer id;
     @Column(name = "sale_employee_id", nullable = false)
     private String saleEmployeeId;
     @Column(name = "customer_id", nullable = false)
     private String customerId;
     @Column(name = "insurance_id", nullable = false)
-    private int insuranceId;
+    private Integer insuranceId;
     private String message;
 
-    public Sale(String saleEmployeeId, String customerId, int insuranceId, String message) {
+    public Sale(String saleEmployeeId, String customerId, Integer insuranceId, String message) {
         this.saleEmployeeId = saleEmployeeId;
         this.customerId = customerId;
         this.insuranceId = insuranceId;
@@ -27,11 +27,11 @@ public class Sale implements Serializable {
 
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -51,11 +51,11 @@ public class Sale implements Serializable {
         this.customerId = customerId;
     }
 
-    public int getInsuranceId() {
+    public Integer getInsuranceId() {
         return insuranceId;
     }
 
-    public void setInsuranceId(int insuranceId) {
+    public void setInsuranceId(Integer insuranceId) {
         this.insuranceId = insuranceId;
     }
 

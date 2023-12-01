@@ -1,31 +1,33 @@
 package com.omnm.sale.Controller;
 
-
-
-import com.omnm.sale.DTO.GetSaleListResponse;
-import com.omnm.sale.DTO.OfferInsuranceResponse;
 import com.omnm.sale.Entity.Sale;
-import com.omnm.sale.exception.EmptyListException;
-import com.omnm.sale.exception.TimeDelayException;
-import com.omnm.sale.service.SaleService;
+import com.omnm.sale.Service.SaleService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.rmi.RemoteException;
-import java.util.ArrayList;
+import javax.persistence.criteria.CriteriaBuilder;
+import java.util.HashMap;
+import java.util.List;
 
 @RestController
 public class SaleController {
     @Autowired
     SaleService saleService;
     @PostMapping("/offer")
-    public OfferInsuranceResponse offerInsurance(String saleEmployeeId, String customerId, int insuranceId, String message) throws RemoteException {
-        return new OfferInsuranceResponse(saleService.offerInsurance(saleEmployeeId, customerId, insuranceId, message));
+    public ResponseEntity<Integer> postSale(@RequestBody HashMap<String, String> param) {
+        String saleEmployeeId = param.get("saleEmployeeId");
+        String customerId = param.get("customerId");
+        Integer insuranceId = Integer.valueOf(param.get("insuranceId"));
+        String message = param.get("message");
+        return this.saleService.postSale(saleEmployeeId, customerId, insuranceId, message);
     }
     @GetMapping("/list/sales")
-    public GetSaleListResponse getSaleList(String customerId) throws RemoteException, EmptyListException, TimeDelayException {
-        return new GetSaleListResponse(saleService.getSaleList(customerId));
+    public ResponseEntity<List<Sale>> getSaleListByCustomerId(@Param("customerId") String customerId) {
+        return this.saleService.getSaleListByCustomerId(customerId);
     }
 }

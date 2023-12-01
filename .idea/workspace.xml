@@ -1,13 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ab4ba1c-d8ce-4658-bed0-f193385022f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Repository/SaleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Controller/SaleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Controller/SaleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DAO/Dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DAO/SaleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DAO/SaleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DTO/GetSaleListResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DTO/OfferInsuranceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Entity/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Entity/Sale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/service/SaleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Service/SaleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/service/SaleServiceIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Service/SaleServiceIF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/Controller/SaleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnm/sale/Controller/SaleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/DAO/Dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/DAO/SaleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnm/sale/DAO/SaleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/DTO/GetSaleListResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/DTO/OfferInsuranceResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/Entity/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnm/sale/Entity/Sale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/service/SaleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/service/SaleServiceIF.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Yj9efBS3vwETACzkfuP81vFF0v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Insurance-master/sale&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="SaleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="SaleService" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.omnm.sale.SaleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ab4ba1c-d8ce-4658-bed0-f193385022f3" name="Changes" comment="" />
+      <created>1701028218281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701028218281</updated>
+      <workItem from="1701028219322" duration="778000" />
+      <workItem from="1701083245231" duration="699000" />
+      <workItem from="1701090395449" duration="31000" />
+      <workItem from="1701423528752" duration="4429000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-s3" />
+    <option featureType="dependencySupport" implementationName="maven-packaging:war" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/omnm/sale/Controller/SaleController.java</url>
+          <line>21</line>
+          <properties class="com.omnm.sale.Controller.SaleController" method="postSale">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
