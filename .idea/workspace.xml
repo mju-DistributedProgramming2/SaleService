@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ab4ba1c-d8ce-4658-bed0-f193385022f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Repository/SaleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Controller/SaleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Controller/SaleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DAO/Dao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DAO/SaleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DAO/SaleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DTO/GetSaleListResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DTO/OfferInsuranceResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Entity/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Entity/Sale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/service/SaleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Service/SaleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/service/SaleServiceIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/Service/SaleServiceIF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/Controller/SaleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnm/sale/Controller/SaleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/DAO/Dao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/DAO/SaleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnm/sale/DAO/SaleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/DTO/GetSaleListResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/DTO/OfferInsuranceResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/Entity/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/omnm/sale/Entity/Sale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/service/SaleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/service/SaleServiceIF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +89,9 @@
       <workItem from="1701028219322" duration="778000" />
       <workItem from="1701083245231" duration="699000" />
       <workItem from="1701090395449" duration="31000" />
-      <workItem from="1701423528752" duration="4429000" />
+      <workItem from="1701423528752" duration="4756000" />
+      <workItem from="1701438008698" duration="699000" />
+      <workItem from="1701699248263" duration="74000" />
     </task>
     <servers />
   </component>
