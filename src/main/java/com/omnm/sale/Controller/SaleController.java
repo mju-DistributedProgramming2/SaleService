@@ -1,14 +1,12 @@
 package com.omnm.sale.Controller;
 
+import com.omnm.sale.DTO.SaleList;
 import com.omnm.sale.Entity.Sale;
 import com.omnm.sale.Service.SaleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import java.util.HashMap;
@@ -26,8 +24,8 @@ public class SaleController {
         String message = param.get("message");
         return this.saleService.postSale(saleEmployeeId, customerId, insuranceId, message);
     }
-    @GetMapping("/list/sales")
-    public ResponseEntity<List<Sale>> getSaleListByCustomerId(@Param("customerId") String customerId) {
+    @GetMapping("/sales/{customerId}")
+    public ResponseEntity<SaleList> getSaleListByCustomerId(@PathVariable("customerId") String customerId) {
         return this.saleService.getSaleListByCustomerId(customerId);
     }
 }

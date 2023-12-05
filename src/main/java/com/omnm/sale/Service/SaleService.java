@@ -1,6 +1,7 @@
 package com.omnm.sale.Service;
 
 import com.omnm.sale.DAO.SaleDAO;
+import com.omnm.sale.DTO.SaleList;
 import com.omnm.sale.Entity.Sale;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -22,7 +23,7 @@ public class SaleService implements SaleServiceIF {
         return new ResponseEntity<>(sale.getId(), new HttpHeaders(), HttpStatus.valueOf(200));
     }
     @Override
-    public ResponseEntity<List<Sale>> getSaleListByCustomerId(String customerId) {
+    public ResponseEntity<SaleList> getSaleListByCustomerId(String customerId) {
         long beforeTime = System.currentTimeMillis();
         List<Sale> saleList = new ArrayList<>();
         for(Sale sale : this.saleDAO.findSale()){
@@ -30,10 +31,10 @@ public class SaleService implements SaleServiceIF {
                 saleList.add(sale);
             }
         }
-        if(saleList.isEmpty()) return new ResponseEntity<>(saleList, new HttpHeaders(), HttpStatus.valueOf(404));
+        if(saleList.isEmpty()) return new ResponseEntity<>(new SaleList(saleList), new HttpHeaders(), HttpStatus.valueOf(404));
         long afterTime = System.currentTimeMillis();
         long secDiffTime = (afterTime - beforeTime)/1000;
-        if(secDiffTime>=7) return new ResponseEntity<>(saleList, new HttpHeaders(), HttpStatus.valueOf(500));
-        return new ResponseEntity<>(saleList, new HttpHeaders(), HttpStatus.valueOf(200));
+        if(secDiffTime>=7) return new ResponseEntity<>(new SaleList(saleList), new HttpHeaders(), HttpStatus.valueOf(500));
+        return new ResponseEntity<>(new SaleList(saleList), new HttpHeaders(), HttpStatus.valueOf(200));
     }
 }
