@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ab4ba1c-d8ce-4658-bed0-f193385022f3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,6 +94,8 @@
       <workItem from="1701699248263" duration="2984000" />
       <workItem from="1701702968903" duration="16000" />
       <workItem from="1701705075696" duration="1343000" />
+      <workItem from="1701770425245" duration="531000" />
+      <workItem from="1701925432422" duration="805000" />
     </task>
     <servers />
   </component>
@@ -113,29 +115,5 @@
     <option featureType="dependencySupport" implementationName="maven-packaging:war" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/omnm/sale/Controller/SaleController.java</url>
-          <line>21</line>
-          <properties class="com.omnm.sale.Controller.SaleController" method="postSale">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/omnm/sale/Controller/SaleController.java</url>
-          <line>29</line>
-          <properties class="com.omnm.sale.Controller.SaleController" method="getSaleListByCustomerId">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
