@@ -44,7 +44,7 @@ class SaleServiceTest {
         assertEquals(sale.getId(), response.getBody());
 
         verify(saleDAO, times(1)).createSale(any());
-        System.out.println("ㅔostSale 테스트 성공");
+        System.out.println("testPostSale 테스트 성공");
     }
 
     @Test
