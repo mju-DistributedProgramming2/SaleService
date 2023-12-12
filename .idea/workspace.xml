@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ab4ba1c-d8ce-4658-bed0-f193385022f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/omnm/sale/Controller/SaleControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/omnm/sale/Service/SaleServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DAO/SaleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/DAO/SaleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/SaleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/configuration/SaleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omnm/sale/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omnm/sale/configuration/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/SaleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/omnm/sale/WebConfig.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,9 +55,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Insurance-master/contract",
+    "last_opened_file_path": "F:/Insurance-master/sale",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,12 +71,77 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.omnm.sale.Service" />
+      <recent name="com.omnm.sale.Controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SaleControllerTest">
+    <configuration name="SaleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SaleService" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.omnm.sale.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.omnm.sale.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.omnm.sale.Controller.SaleControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SaleService" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.omnm.sale.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.omnm.sale.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.omnm.sale.Service.SaleServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleServiceTest.testPostSale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SaleService" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.omnm.sale.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.omnm.sale.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.omnm.sale.Service.SaleServiceTest" />
+      <option name="METHOD_NAME" value="testPostSale" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SaleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="SaleService" />
       <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.omnm.sale.SaleApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.omnm.sale.configuration.SaleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,6 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SaleControllerTest" />
+        <item itemvalue="JUnit.SaleServiceTest" />
+        <item itemvalue="JUnit.SaleServiceTest.testPostSale" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,6 +178,10 @@
       <workItem from="1701705075696" duration="1343000" />
       <workItem from="1701770425245" duration="531000" />
       <workItem from="1701925432422" duration="805000" />
+      <workItem from="1701928108437" duration="348000" />
+      <workItem from="1702383793149" duration="864000" />
+      <workItem from="1702386389994" duration="776000" />
+      <workItem from="1702390174533" duration="2201000" />
     </task>
     <servers />
   </component>
